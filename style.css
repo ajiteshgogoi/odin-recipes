@@ -24,3 +24,21 @@ h1 {
     text-align: center;
     font-weight: bolder;
 }
+
+.main-list {
+    font-size: 30px;
+    font-weight: 600;
+    te
+
+}
+
+@counter-style repeating-emoji {
+    system: cyclic;
+    symbols: "\1F957" "\1F373" "\1F35D";
+    suffix: " ";
+
+}
+
+.repeating-counter-rule {
+    list-style-type: repeating-emoji;
+}
