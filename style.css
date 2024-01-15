@@ -1,0 +1,26 @@
+img {
+    width: 500px;
+    height: auto;
+
+}
+
+* {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: #fdd0d7;
+
+}
+
+button {
+    background-color: lightgreen;
+    color: black;
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+}
