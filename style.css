@@ -18,6 +18,9 @@ button {
     width: 300px;
     font-size: large;
     font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -40,11 +43,4 @@ a {
 #first-image {
     margin: auto;
     
-}
-
-.index-button {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-
 }
