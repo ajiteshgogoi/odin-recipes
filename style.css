@@ -1,6 +1,7 @@
 img {
     width: 500px;
     height: auto;
+    display: block;
 
 }
 
@@ -28,17 +29,19 @@ h1 {
 .main-list {
     font-size: 30px;
     font-weight: 600;
-    te
+    margin: auto;
+    margin-top: 30px;
 
 }
 
-@counter-style repeating-emoji {
-    system: cyclic;
-    symbols: "\1F957" "\1F373" "\1F35D";
-    suffix: " ";
-
+#first-image {
+    margin: auto;
+    
 }
 
-.repeating-counter-rule {
-    list-style-type: repeating-emoji;
+.index-button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
 }
